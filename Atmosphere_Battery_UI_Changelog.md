@@ -1,16 +1,27 @@
+Main - Feature's
+• Charging System [ Depends on Phone ] Credited: @Kanagawa_Yamanada
 
-• Feature:
+• Battery Guard [ Battery Guard Protect your battery to Highest Temperature in 45°C ] 
 
-- Adaptive idle pacing
-  
-- Chipset-aware tweaks
-  
-- Adaptive Battery
-  
-- Enabling Push Limit of Volts and watts
-  
-- Battery Optimize Automatic
-  
-- System Optimization
-  
-- Improving System Without Reducing Gaming Performance
+﻿• Adaptive Battery 
+ 
+• Battery Optimization 
+
+• Charging Upgrades Per Watts
+
+• CPU Half 
+
+• Anti Kernel Panic 
+
+• System Optimization 
+
+• Dex2oat 
+
+• Added in Fast Charging System in Webroot 
+
+• Added Games in Webroot
+
+
+Take note⚠️
+
+- Support Ax Manager and Other All Root Manager
