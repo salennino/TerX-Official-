@@ -1,27 +1,17 @@
-Main - Feature's
-• Charging System [ Depends on Phone ] Credited: @Kanagawa_Yamanada
+# Atmosphere Fern UI Ver11.0 🌿
 
-• Battery Guard [ Battery Guard Protect your battery to Highest Temperature in 45°C ] 
+## Changelog 📝
+- Redesigned WebUI 🖥️
+- Enhanced writing watts and voltage performance via hardware optimization ⚡
+- Improved Fast Charging System and Battery Optimization 🔋
 
-﻿• Adaptive Battery 
- 
-• Battery Optimization 
+## Note ⚠️
+- Modules have been thoroughly fixed to prevent bootloops and kernel panics 🔧
+- Limited features available for non-root users and other configurations 🚧
 
-• Charging Upgrades Per Watts
+## Downloads 📦
+- **For AXM-NON-ROOT** → [Download](https://sfl.gl/gRRKW)
+- **For AXM-ROOT** → [Download](https://sfl.gl/y5Zy6xVs)
 
-• CPU Half 
-
-• Anti Kernel Panic 
-
-• System Optimization 
-
-• Dex2oat 
-
-• Added in Fast Charging System in Webroot 
-
-• Added Games in Webroot
-
-
-Take note⚠️
-
-- Support Ax Manager and Other All Root Manager
+## Official Channel 📢
+[Join @terxofficial on Telegram](https://t.me/terxofficial)
