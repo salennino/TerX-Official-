@@ -1,0 +1,44 @@
+name: Auto-Update AI Status
+
+on:
+  schedule:
+    - cron: '*/5 * * * *'
+  workflow_dispatch:
+
+jobs:
+  check-and-update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Check AI health endpoint
+        id: healthcheck
+        run: |
+          HEALTH_URL="https://de532483-0182-4277-9a2c-d8dd4cc3bdb7-00-332n8n877mdyj.sisko.replit.dev/api/healthz"
+          HTTP_CODE=$(curl -s -o /dev/null -w "%{http_code}" --max-time 10 "$HEALTH_URL" || echo "000")
+          echo "HTTP status code: $HTTP_CODE"
+          if [ "$HTTP_CODE" -eq 200 ]; then
+            echo "STATUS=true" >> $GITHUB_OUTPUT
+          else
+            echo "STATUS=false" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Update status.json if needed
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          CURRENT_STATUS=$(jq -r '.online' status.json)
+          NEW_STATUS=${{ steps.healthcheck.outputs.STATUS }}
+          echo "Current: $CURRENT_STATUS, New: $NEW_STATUS"
+          if [ "$CURRENT_STATUS" != "$NEW_STATUS" ]; then
+            echo "Status changed! Updating file..."
+            echo "{\"online\": $NEW_STATUS}" > status.json
+            git config user.name "github-actions[bot]"
+            git config user.email "github-actions[bot]@users.noreply.github.com"
+            git add status.json
+            git commit -m "Update AI online status to $NEW_STATUS [skip ci]"
+            git push
+          else
+            echo "No change. Skipping update."
+          fi
