@@ -8,7 +8,8 @@ on:
 jobs:
   check-and-update:
     runs-on: ubuntu-latest
-    permissions: write-all
+    permissions: write-all          # <--- ITO ANG DAGDAG MO
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v5
@@ -19,7 +20,6 @@ jobs:
           HEALTH_URL="https://de532483-0182-4277-9a2c-d8dd4cc3bdb7-00-332n8n877mdyj.sisko.replit.dev/api/healthz"
           RESPONSE=$(curl -s --max-time 10 "$HEALTH_URL" || echo "")
           echo "Response: $RESPONSE"
-          # Hanapin ang "status":"ok" (puwedeng may space o wala)
           if echo "$RESPONSE" | grep -q '"status"[[:space:]]*:[[:space:]]*"ok"'; then
             echo "STATUS=true" >> $GITHUB_OUTPUT
           else
