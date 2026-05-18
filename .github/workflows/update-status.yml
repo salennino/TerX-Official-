@@ -16,17 +16,16 @@ jobs:
         id: healthcheck
         run: |
           HEALTH_URL="https://de532483-0182-4277-9a2c-d8dd4cc3bdb7-00-332n8n877mdyj.sisko.replit.dev/api/healthz"
-          HTTP_CODE=$(curl -s -o /dev/null -w "%{http_code}" --max-time 10 "$HEALTH_URL" || echo "000")
-          echo "HTTP status code: $HTTP_CODE"
-          if [ "$HTTP_CODE" -eq 200 ]; then
+          RESPONSE=$(curl -s --max-time 10 "$HEALTH_URL" || echo "")
+          echo "Response: $RESPONSE"
+          # Hanapin ang "status":"ok" (puwedeng may space o wala)
+          if echo "$RESPONSE" | grep -q '"status"[[:space:]]*:[[:space:]]*"ok"'; then
             echo "STATUS=true" >> $GITHUB_OUTPUT
           else
             echo "STATUS=false" >> $GITHUB_OUTPUT
           fi
 
       - name: Update status.json if needed
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           CURRENT_STATUS=$(jq -r '.online' status.json)
           NEW_STATUS=${{ steps.healthcheck.outputs.STATUS }}
