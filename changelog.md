@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/salennino/TerX-Official-/main/Img.png" alt="Frieren AI Banner" width="600">
+  <img src="https://raw.githubusercontent.com/salennino/TerX-Official-/refs/heads/main/Frieren.png" alt="Frieren AI Banner" width="600">
 </p>
 
 <p align="center">
