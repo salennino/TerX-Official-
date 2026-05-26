@@ -1,16 +1,105 @@
-<p align="center">
-  <img src="https://raw.githubusercontent.com/salennino/TerX-Official-/refs/heads/main/Frieren.png" alt="Frieren AI Banner" width="600">
-</p>
+<!--
+  ✦ Frieren AI v9.0 – Arcane Changelog ✦
+  A scroll of renewal, penned in the silent hour after the journey’s end.
+  May this grimoire guide your device through all manner of trials.
+-->
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Frieren%20AI-v8.0-blue?style=for-the-badge" alt="Version">
-  <a href="https://t.me/terxofficial"><img src="https://img.shields.io/badge/Telegram-Join%20Channel-2CA5E0?style=for-the-badge&logo=telegram" alt="Telegram"></a>
-  <a href="[https://youtube.com/@yourchannel](https://youtube.com/@terx0-c4f?si=et6fUAn_HxnWcb7O)"><img src="https://img.shields.io/badge/YouTube-Tutorial-red?style=for-the-badge&logo=youtube" alt="YouTube Tutorial"></a>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=24&duration=3000&pause=1000&color=C9A0DC&center=true&vCenter=true&width=500&lines=%E2%9C%A6+%F0%9D%95%81%F0%9D%95%A3%F0%9D%95%9A%F0%9D%95%96%F0%9D%95%A3%F0%9D%95%96%F0%9D%95%9F+%F0%9D%94%B8%F0%9D%94%BC+%F0%9D%95%8D+%F0%9D%9F%AE.%F0%9D%9F%AC+%E2%80%94+%F0%9D%94%B8+%F0%9D%95%84%F0%9D%95%92%F0%9D%95%98%F0%9D%95%9A%F0%9D%95%94%F0%9D%95%92%F0%9D%95%9D+%F0%9D%95%8F%F0%9D%95%96%F0%9D%95%94%F0%9D%95%A3%F0%9D%95%96%F0%9D%95%96+%E2%9C%A6;%E2%80%9CTo+walk+the+path+of+power+is+to+walk+lightly.%E2%80%9D" alt="Frieren AI Decree" />
 </p>
 
-<h1 align="center">✨ Frieren AI v8.0 — Official Changelog ✨</h1>
-<p align="center"><b>Integrated System & Engine Update</b></p>
+---
 
+## 📜 The Mage’s Decree  
+*Frieren AI v9.0* arrives as a fully rebuilt, feather-light engine.  
+CPU and GPU overclock, frame pacing, touch boost, and a new battery‑ward daemon have been woven together with the utmost care.  
+The WebUI, re‑imagined by **Kaminarich**, now breathes with stable graphics and minimal burden, while the thermal execration model commands an aggressive, yet fully reversible, **Thermal Killer** — dynamic and absolute in its domain.
+
+---
+
+## ⚙️ Arcane Engine Core  
+
+> *“The strongest spell is one cast with precision, not weight.”*
+
+🕯️ **Ultra‑lightweight Familiar**  
+ Adaptive scrying — 3 s while idle, 1 s in battle — leaving no shadow of lag behind.  
+
+⚔️ **CPU Overclocking Enchantment**  
+ All cores awakened, bound to the performance governor, locked at their highest frequency.  
+
+🛡️ **GPU Overclocking Barrier**  
+ Maximum frequency asserted, performance governor invoked.  
+ Adreno‑boost attuned to level 3, throttling utterly banished.  
+
+🌀 **Frame Pacing Ritual**  
+ AOSP SurfaceFlinger phase offsets consecrated — early and late app/GL, high‑FPS offsets — to deliver flawless fluidity.  
+
+🔥 **Touch Boost Sigil**  
+ `cpu_boost` channelled (2000 ms input surge, dynamic stune reinforcement) so every tap resonates with power.  
+
+📿 **Extended Property Array**  
+ HWUI, EGL, Dalvik, Power HAL, vendor properties — all conflict‑free, harmonised in one silent chorus.
+
+---
+
+## 🕸️ WebUI Grimoire  
+
+> *“A well‑drawn map wastes no ink.”*
+
+🌿 Redesigned by **Kaminarich** for enduring graphical stability.  
+🍂 Superfluous files pruned like dead leaves, hastening the rise of every page.
+
+---
+
+## 🔥 Thermal Banishment Spell — *Frieren_Thermal*  
+
+> *“Heat is but a memory when the frost of discipline falls.”*
+
+❄️ Before modification, all thermal zones, services, and properties are sealed in a perfect backup.  
+🥶 Every known thermal daemon is silenced (including `thermalloadalgod`, `vendor.thermal-hal-2-0.mtk`).  
+🧊 Thermal zone modes, cooling devices, PPM, GPU throttling, and kernel thermal modules — all extinguished.  
+♨️ Trip points are lifted unto 115 °C, a summit that mortal loads shall never reach.  
+⏳ When the game closes, all settings — services, zones, properties, PPM, battery OC — are restored with exacting care, as though the spell were never cast.
+
+---
+
+## 🔋 Battery Ward — *Frieren_Battery*  
+
+> *“A gentle flame endures far longer than a raging pyre.”*
+
+Three sacred profiles, whispered by the Frieren icon upon each shift:
+
+🌙 **Balance** — Harmonious scaling of CPU/GPU frequencies, subtle VM tweaks.  
+🍃 **Powersave** — Measured restraint, conserving strength for the journey ahead.  
+💤 **Doze** — Deep slumber invoked, automatic low‑battery aegis fortified.
+
+The ward now utters per‑mode notifications, so you may always know the temper of your device’s heart.
+
+---
+
+## ✨ The Two States of Being  
+
+All paths converge into clarity:
+
+🔷 **Frieren AI: Performance Mode**  
+ The full might of the engine, unleashed.  
+
+🔶 **Frieren AI: Restored**  
+ The tranquil state, where every borrowed power is gently returned.
+
+---
+
+## 🌟 Honours & Acknowledgements  
+
+🖌️ WebUI re‑design crafted by the skilled hand of **Kaminarich**.  
+📖 This changelog sealed on the 26th day of the fifth moon, in the year two thousand twenty‑six.  
+
+---
+
+<p align="center">
+  <i>“To those who venture forth, may your frames be high and your temperatures low.”</i><br>
+  <sub>⚜️ Frieren AI · v9.0 · Beyond the Journey’s End ⚜️</sub>
+</p>
 ---
 
 > ⚠️ **Important:**  
