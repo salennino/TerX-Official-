@@ -159,7 +159,7 @@ All paths converge into clarity:
 ---
 
 <p align="center">
-  <b>Frieren AI v8.0 – Uncompromising performance, total control, and complete peace of mind</b> 🔥
+  <b>Frieren AI v9.0 – Uncompromising performance, total control, and complete peace of mind</b> 🔥
 </p>
 
 <p align="center">
