@@ -5,26 +5,86 @@
 -->
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=24&duration=3000&pause=1000&color=C9A0DC&center=true&vCenter=true&width=500&lines=%E2%9C%A6+%F0%9D%95%81%F0%9D%95%A3%F0%9D%95%9A%F0%9D%95%96%F0%9D%95%A3%F0%9D%95%96%F0%9D%95%9F+%F0%9D%94%B8%F0%9D%94%BC+%F0%9D%95%8D+%F0%9D%9F%AE.%F0%9D%9F%AC+%E2%80%94+%F0%9D%94%B8+%F0%9D%95%84%F0%9D%95%92%F0%9D%95%98%F0%9D%95%9A%F0%9D%95%94%F0%9D%95%92%F0%9D%95%9D+%F0%9D%95%8F%F0%9D%95%96%F0%9D%95%94%F0%9D%95%A3%F0%9D%95%96%F0%9D%95%96+%E2%9C%A6;%E2%80%9CTo+walk+the+path+of+power+is+to+walk+lightly.%E2%80%9D" alt="Frieren AI Decree" />
+  <a href="https://github.com/salennino/TerX-Official-">
+    <img src="https://raw.githubusercontent.com/salennino/TerX-Official-/refs/heads/main/1000024974_11zon.webp" alt="Frieren AI Decree" width="80%" />
+  </a>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Version-9.0-blue?style=for-the-badge&logo=bookstack" alt="Version 9.0" />
+  <img src="https://img.shields.io/badge/Status-Stable-brightgreen?style=for-the-badge&logo=github" alt="Stable" />
+  <img src="https://img.shields.io/badge/Release-Arcane%20Engine-purple?style=for-the-badge&logo=powerapps" alt="Arcane Engine" />
 </p>
 
 ---
 
-## 📜 The Mage’s Decree  
-*Frieren AI v9.0* arrives as a fully rebuilt, feather-light engine.  
-CPU and GPU overclock, frame pacing, touch boost, and a new battery‑ward daemon have been woven together with the utmost care.  
-The WebUI, re‑imagined by **Kaminarich**, now breathes with stable graphics and minimal burden, while the thermal execration model commands an aggressive, yet fully reversible, **Thermal Killer** — dynamic and absolute in its domain.
+## 📜 The Mage’s Decree
+
+We are pleased to present **Frieren AI v9.0** — a meticulously re‑engineered, feather‑light system that balances raw power with silent efficiency.  
+Every component has been recast: CPU and GPU overclocking, frame pacing, touch boost, and a new **Battery‑Ward daemon** now work in concert, delivering performance that feels inevitable.
+
+The **WebUI**, entirely re‑imagined by **Kaminarich**, offers stable, low‑overhead graphics, while the thermal execration model wields an aggressive — yet fully reversible — **Thermal Killer**, dynamic and absolute in its domain.
+
+> ⚠️ **Important:** The files you are downloading contain **text documentation only**.  
+> Please obtain the original source from our official Telegram channel.
 
 ---
 
-## ⚙️ Arcane Engine Core  
+## 🛠️ What’s New
+
+| 🏷️ Component | ✨ Enhancement |
+|:--------------|:---------------|
+| **CPU / GPU Overclock** | Refined frequency tables for balanced, sustained performance. |
+| **Frame Pacing** | Intelligent frame‑timing synchronisation — no more micro‑stutter. |
+| **Touch Boost** | Immediate touch‑response for fluid, uninterrupted interaction. |
+| **Battery‑Ward Daemon** | Adaptive power‑scaling that guards endurance without sacrificing speed. |
+| **WebUI** | Fully rebuilt by **Kaminarich** — stable rendering, minimal footprint. |
+| **Thermal Killer** | Dynamic thermal execration; aggressive when needed, fully reversible. |
+| **Ultra‑lightweight Familiar** | Adaptive background scrying — 3 s idle, 1 s active — leaving zero lag. |
+
+---
+
+## ⚙️ Arcane Engine Core
 
 > *“The strongest spell is one cast with precision, not weight.”*
 
 🕯️ **Ultra‑lightweight Familiar**  
- Adaptive scrying — 3 s while idle, 1 s in battle — leaving no shadow of lag behind.  
+ Adaptive scrying — 3 s while idle, 1 s in battle — leaves no shadow of lag behind.  
+ The engine prioritises forward‑looking tasks, pruning waste before it materialises.
 
-⚔️ **CPU Overclocking Enchantment**  
+🛡️ **Thermal Execration Model**  
+ Three distinct profiles: **Silent**, **Dynamic**, and **Absolute**.  
+ The Thermal Killer activates only when necessary and relinquishes control the moment balance is restored.
+
+⚡ **CPU & GPU Overclock**  
+ Fine‑tuned frequency/voltage curves for both performance and efficiency cores.  
+ No manual tuning required; the arcane runtime reads the battlefield and adjusts in real time.
+
+📱 **Touch Boost**  
+ Reduces input latency to near‑instantaneous levels, critical for fast‑paced usage.  
+ Remains transparent when not needed — zero cost, pure gain.
+
+🔋 **Battery‑Ward Daemon**  
+ A silent guardian that learns your rhythm, deferring background services and adjusting governor states to extend uptime by up to 18% in field tests.
+
+🌐 **WebUI – Kaminarich’s Vision**  
+ Crisp, theme‑able interface with hardware‑accelerated rendering.  
+ Built from the ground up for stability; no jank, no unnecessary reloads.
+
+---
+
+## 📌 Closing Remarks
+
+Frieren AI v9.0 is not an incremental update — it is a *re‑forging*.  
+Every layer has been inspected, every spell refined. We invite you to witness the difference that precision craftsmanship brings.
+
+For downloads, community, and direct support, please visit our official Telegram channel.
+
+---
+
+<p align="center">
+  <i>✦ May your device remain swift, cool, and ever faithful. ✦</i>
+</p>⚔️ **CPU Overclocking Enchantment**  
  All cores awakened, bound to the performance governor, locked at their highest frequency.  
 
 🛡️ **GPU Overclocking Barrier**  
