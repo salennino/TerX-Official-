@@ -1,10 +1,31 @@
 {
   "updates": [
     {
-      "title": "",
-      "date": "",
-      "description": "",
-      "link": ""
+      "title": "UnOfficial Announcement",
+      "date": "05/03/2026",
+      "description": "Unofficial Announcement: Upcoming Frieren AI Version 10.0 📢
+
+Release Date: 12/20/2026
+
+Newly Added Features 🆕
+[ Credits to @kaminarich ]
+
+- Dex2OAT
+- Network Boost 🚀
+- Preload Game Assets 🎮
+- Governor Configuration
+- Log Management (Enable/Disable)
+
+Changelog 📝
+- Fix: Frieren Battery
+- Frieren Battery updated to version 2
+- Frieren Balance Optimization
+- Frieren Power Save
+- Fix: Excessive Flashing Duration during Completion
+
+The upcoming Version v10.0 release requires additional submissions regarding configuration changes. 🔄
+To enhance your device in future updates, please submit any issues related to Frieren AI so they may be addressed in the Version v10.0 update.",
+      "link": "https://t.me/terxofficial/1449"
     }
   ]
 }
